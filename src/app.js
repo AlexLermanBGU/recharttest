@@ -4,6 +4,7 @@ import Charts from './charts';
 
 const style = {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'center'
 }
 
@@ -11,10 +12,10 @@ const App = (props) => {
     return (
         <div>
             <div> hello </div>
-            <div style={style}> 
-            
+            <div style={style}>
+
                 <Charts data={data} />
-            
+
             </div>
         </div>
     );
